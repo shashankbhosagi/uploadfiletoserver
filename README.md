@@ -6,8 +6,8 @@ This project is a Flask application for uploading files to a server in my home. 
 
 ## Installation
 
-1. Clone the repository: `git clone https://github.com/shashankbhosagi/uploadfiletoserver`
-2. Navigate to the project directory: `cd your-repo`
+1. Clone the repository: `git clone https://github.com/shashankbhosagi/uploadfiletoserver.git`
+2. Navigate to the project directory: `cd uploadfiletoserver`
 3. Create and activate a virtual environment: `python3 -m venv venvUpload && source venvUpload/bin/activate`
 4. Install the required dependencies: `pip install -r requirements.txt`
 
@@ -33,12 +33,19 @@ sudo docker build -t uploadfile .
 sudo docker container run -d -p 5000:5000 uploadfile
 ```
 
+
 - To Stop docker container 
 
 ```bash
 sudo docker container ls
 ```
+![image](https://github.com/shashankbhosagi/uploadfiletoserver/assets/78866224/8a5379f4-22a4-4531-8ddd-51234962cd70)
 
 ```bash
 sudo docker container stop <starting_letters_of_container_id>
+```
+Here in our case
+
+```bash
+sudo docker container stop cb0
 ```
