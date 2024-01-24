@@ -1,0 +1,6 @@
+# Temporary files
+__pycache__/
+*.pyc
+
+# Environment files
+venvUpload/*
